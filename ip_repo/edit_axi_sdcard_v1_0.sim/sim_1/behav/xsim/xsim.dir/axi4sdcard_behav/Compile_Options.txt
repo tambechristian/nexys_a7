@@ -1,0 +1,1 @@
+-wto "437bc43ddadc4f988d59b8fb11716392" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "work" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "axi4sdcard_behav" "work.axi4sdcard" "work.glbl" -log "elaborate.log" 

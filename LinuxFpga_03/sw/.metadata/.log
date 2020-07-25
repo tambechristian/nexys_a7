@@ -1,0 +1,1892 @@
+!SESSION 2020-07-25 08:30:32.363 -----------------------------------------------
+eclipse.buildId=2020.1
+java.version=9.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2020-07-25 08:30:42.426
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.TaskList.
+
+!ENTRY org.eclipse.ui 4 4 2020-07-25 08:30:44.311
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:31:00.633
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-1: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:31:00.650
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-16
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:31:00.713
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:31:01.481
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-1: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:31:01.492
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-16
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:31:01.501
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-1: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:31:01.511
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:31:01.529
+!MESSAGE XSCT Command: [setws C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw], Thread: Thread-16
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:31:01.542
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, C:/Xilinx/Vitis/2020.1/data]. Thread: Worker-1: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:31:01.565
+!MESSAGE XSCT command with result: [setws C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw], Result: [null, ]. Thread: Thread-16
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-07-25 08:31:44.772
+!MESSAGE Opening file dialog using preferences. Current path: C:\Xilinx\Vitis\2020.1\data\embeddedsw\lib\fixed_hwplatforms, Local preference: scw_hwspec, Group preference: null
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:31:53.343
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/TAMBEC~1/AppData/Local/Temp/hwspec_design_1_wrapper281791171297443901/design_1_wrapper.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:31:53.609
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/TAMBEC~1/AppData/Local/Temp/hwspec_design_1_wrapper281791171297443901/design_1_wrapper.xsa], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:31:53.648
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Users/TAMBEC~1/AppData/Local/Temp/hwspec_design_1_wrapper281791171297443901/design_1_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:31:53.664
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Users/TAMBEC~1/AppData/Local/Temp/hwspec_design_1_wrapper281791171297443901/design_1_wrapper.xsa], Result: [null, {"axi_sdcard_0": {"hier_name": "axi_sdcard_0",
+"type": "axi_sdcard",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_0": {"hier_name": "clk_wiz_0",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "11.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_intc": {"hier_name": "microblaze_0_axi_intc",
+"type": "axi_intc",
+"version": "4.1",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"microblaze_0_xlconcat": {"hier_name": "microblaze_0_xlconcat",
+"type": "xlconcat",
+"version": "2.1",
+"ip_type": "PERIPHERAL",
+},
+"rst_clk_wiz_0_100M": {"hier_name": "rst_clk_wiz_0_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"xlconstant_0": {"hier_name": "xlconstant_0",
+"type": "xlconstant",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:31:53.782
+!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json C:/Users/TAMBEC~1/AppData/Local/Temp/hwspec_design_1_wrapper281791171297443901/design_1_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:31:53.815
+!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json C:/Users/TAMBEC~1/AppData/Local/Temp/hwspec_design_1_wrapper281791171297443901/design_1_wrapper.xsa], Result: [null, {"microblaze_0": {"freertos10_xilinx_v1_6": {"name": "freertos10_xilinx",
+"version": "1.6",
+"desc": "This Xilinx FreeRTOS port is based on FreeRTOS kernel version 10.3.0",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_6",
+},
+"standalone_v7_2": {"name": "standalone",
+"version": "7.2",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/lib/bsp/standalone_v7_2",
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:31:53.858
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Users/TAMBEC~1/AppData/Local/Temp/hwspec_design_1_wrapper281791171297443901/design_1_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:31:53.867
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json C:/Users/TAMBEC~1/AppData/Local/Temp/hwspec_design_1_wrapper281791171297443901/design_1_wrapper.xsa], Result: [null, {"device": "7a100t",
+"family": "artix7",
+"timestamp": "Sat Jul 25 08:17:54 2020",
+"vivado_version": "2020.1",
+"part": "xc7a100tcsg324-1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:31:55.443
+!MESSAGE XSCT Command: [platform create -name {linuxfpga} -hw {C:\Users\tambechristian\Documents\Electronics\Nexys_A7\LinuxFpga_03\design_1_wrapper.xsa} -proc {microblaze_0} -os {standalone} -out {C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw};platform write], Thread: ModalContext
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-07-25 08:31:55.603
+!MESSAGE Indexed 'linuxfpga' (0 sources, 0 headers) in 0.004 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:10.037
+!MESSAGE XSCT command with result: [platform create -name {linuxfpga} -hw {C:\Users\tambechristian\Documents\Electronics\Nexys_A7\LinuxFpga_03\design_1_wrapper.xsa} -proc {microblaze_0} -os {standalone} -out {C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw};platform write], Result: [null, Successfully saved  the platform at "C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/platform.spr"]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:10.304
+!MESSAGE XSCT Command: [platform read {C:\Users\tambechristian\Documents\Electronics\Nexys_A7\LinuxFpga_03\sw\linuxfpga\platform.spr}], Thread: Worker-3: Initializing the platform to enable editing
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:10.334
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/hw/design_1_wrapper.xsa], Thread: Worker-7: Initializing hardware specification UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:11.456
+!MESSAGE XSCT command with result: [platform read {C:\Users\tambechristian\Documents\Electronics\Nexys_A7\LinuxFpga_03\sw\linuxfpga\platform.spr}], Result: [null, ]. Thread: Worker-3: Initializing the platform to enable editing
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:11.474
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/hw/design_1_wrapper.xsa], Result: [null, ]. Thread: Worker-7: Initializing hardware specification UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:11.480
+!MESSAGE XSCT Command: [platform active {linuxfpga}], Thread: Worker-3: Initializing the platform to enable editing
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:11.486
+!MESSAGE XSCT Command: [::hsi::utils::closehw C:/Users/TAMBEC~1/AppData/Local/Temp/hwspec_design_1_wrapper281791171297443901/design_1_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:11.493
+!MESSAGE XSCT command with result: [platform active {linuxfpga}], Result: [null, ]. Thread: Worker-3: Initializing the platform to enable editing
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:11.506
+!MESSAGE XSCT command with result: [::hsi::utils::closehw C:/Users/TAMBEC~1/AppData/Local/Temp/hwspec_design_1_wrapper281791171297443901/design_1_wrapper.xsa], Result: [null, ]. Thread: main
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-07-25 08:32:21.006
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-07-25 08:32:21.041
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-07-25 08:32:21.067
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:37.134
+!MESSAGE XSCT Command: [::hsi::utils::get_all_app_details -json], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:37.225
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_app_details -json], Result: [null, {"ddr_self_refresh": {"userdefname": "DDR self refresh",
+"description": "This DDR self refresh application provides a simple demonstration of how to enter to/exit from DDR self refresh mode. This application runs on R5 out of TCM.",
+"supp_proc": "psu_cortexr5",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/lib/sw_apps/ddr_self_refresh",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"dhrystone": {"userdefname": "Dhrystone",
+"description": "Dhrystone synthetic benchmark program.",
+"supp_proc": "microblaze ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/lib/sw_apps/dhrystone",
+"os": "standalone",
+"bsp_constraints": "false",
+},
+"empty_application": {"userdefname": "Empty Application",
+"description": "A blank C project.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5 psu_cortexa72 psv_cortexr5 psv_cortexa72",
+"supp_os": "standalone xilkernel freertos10_xilinx",
+"path": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/lib/sw_apps/empty_application",
+"os": "standalone",
+"bsp_constraints": "false",
+},
+"freertos_hello_world": {"userdefname": "FreeRTOS Hello World",
+"description": " FreeRTOS Hello World application",
+"supp_proc": "psu_cortexr5 psv_cortexr5 ps7_cortexa9 psu_cortexa53 microblaze psv_cortexa72",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/lib/sw_apps/freertos_hello_world",
+"os": "standalone",
+"bsp_constraints": "false",
+},
+"freertos_lwip_echo_server": {"userdefname": "FreeRTOS lwIP Echo Server",
+"description": "The FreeRTOS lwIP Echo Server application provides a simple demonstration of how to use the light-weight IP stack (lwIP) with FreeRTOS. This application sets up the board to use IP address 192.168.1.10 or IPv6 address FE80:0:0:0:20A:35FF:FE00:102, with MAC address 00:0a:35:00:01:02. The server listens for input at port 7 and simply echoes back whatever data is sent to that port.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/lib/sw_apps/freertos_lwip_echo_server",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"freertos_lwip_tcp_perf_client": {"userdefname": "FreeRTOS lwIP TCP Perf Client",
+"description": "The FreeRTOS LwIP TCP Perf Client application is used for creating TCP client and measure TCP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10 and IPv6 link local address whenipv6_enable is true, with MAC address 00:0a:35:00:01:02. This application creates TCP client on board and make connection with TCP server running on host machine. It will display connection information along with interim and average TCP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/lib/sw_apps/freertos_lwip_tcp_perf_client",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"freertos_lwip_tcp_perf_server": {"userdefname": "FreeRTOS lwIP TCP Perf Server",
+"description": "The FreeRTOS LwIP TCP Server application is used for creating TCP server using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10 and IPv6 link local address when ipv6_enable is true, with MAC address 00:0a:35:00:01:02. The application creates TCP server on board and starts listening for TCP client connections. It will display client connection info and also display interim and average TCP statistics for data transfer. This application handles only 1 client connection at a time.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/lib/sw_apps/freertos_lwip_tcp_perf_server",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"freertos_lwip_udp_perf_client": {"userdefname": "FreeRTOS lwIP UDP Perf Client",
+"description": "The FreeRTOS LwIP UDP Perf Client application is used for creating UDP client and measure UDP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. This application creates UDP client on board and make connection with UDP server running on host machine. It will display connection information along with interim and average UDP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/lib/sw_apps/freertos_lwip_udp_perf_client",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"freertos_lwip_udp_perf_server": {"userdefname": "FreeRTOS lwIP UDP Perf Server",
+"description": "The FreeRTOS LwIP UDP Perf Server application is used for creating UDP server and measure downlink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. The application creates UDP server on board and starts listening for UDP client connections. It will display client connection information with interim and average UDP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/lib/sw_apps/freertos_lwip_udp_perf_server",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"hello_world": {"userdefname": "Hello World",
+"description": "Let's say 'Hello World' in C.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5 psu_cortexa72 psv_cortexr5 psv_cortexa72",
+"supp_os": "standalone xilkernel",
+"path": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/lib/sw_apps/hello_world",
+"os": "standalone",
+"bsp_constraints": "false",
+},
+"libmetal_echo_demo": {"userdefname": "Libmetal AMP Demo",
+"description": "Libmetal AMP Application",
+"supp_proc": "psu_cortexr5 psv_cortexr5",
+"supp_os": "freertos10_xilinx standalone",
+"path": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/lib/sw_apps/libmetal_echo_demo",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"lwip_echo_server": {"userdefname": "lwIP Echo Server",
+"description": "The lwIP Echo Server application provides a simple demonstration of how to use the light-weight IP stack (lwIP). This application sets up the board to use IP address 192.168.1.10 or IPv6 FE80:0:0:0:20A:35FF:FE00:102, with MAC address 00:0a:35:00:01:02. The server listens for input at port 7 and simply echoes back whatever data is sent to that port.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/lib/sw_apps/lwip_echo_server",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"lwip_tcp_perf_client": {"userdefname": "lwIP TCP Perf Client",
+"description": "The LwIP TCP Perf Client application is used for creating TCP client and measure TCP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10 and IPv6 link local address when ipv6_enable is true, with MAC address 00:0a:35:00:01:02. This application creates TCP client on board and make connection with TCP server running on host machine. It will display connection information along with interim and average TCP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/lib/sw_apps/lwip_tcp_perf_client",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"lwip_tcp_perf_server": {"userdefname": "lwIP TCP Perf Server",
+"description": "The LwIP TCP Perf Server application is used for creating TCP server and measure downlink performance using light-weight IP stack (lwIP). This application sets up the board to use default IPv4 address 192.168.1.10 and IPv6 link local address when ipv6_enable is true, with MAC address 00:0a:35:00:01:02. The application creates TCP server on board and starts listening for TCP client connections. It will display client connection information with interim and average TCP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/lib/sw_apps/lwip_tcp_perf_server",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"lwip_udp_perf_client": {"userdefname": "lwIP UDP Perf Client",
+"description": "The LwIP UDP Perf Client application is used for creating UDP client and measure UDP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. This application creates UDP client on board and make connection with UDP server running on host machine. It will display connection information along with interim and average UDP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/lib/sw_apps/lwip_udp_perf_client",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"lwip_udp_perf_server": {"userdefname": "lwIP UDP Perf Server",
+"description": "The LwIP UDP Perf Server application is used for creating UDP server and measure downlink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. The application creates UDP server on board and starts listening for UDP client connections. It will display client connection information with interim and average UDP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/lib/sw_apps/lwip_udp_perf_server",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"mba_fs_boot": {"userdefname": "mba_fs_boot",
+"description": "fs-boot for microblaze by Xilinx Inc..",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/lib/sw_apps/mba_fs_boot",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"memory_tests": {"userdefname": "Memory Tests",
+"description": "This application tests Memory Regions present in the hardware.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5 psv_cortexa72 psv_cortexr5",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/lib/sw_apps/memory_tests",
+"os": "standalone",
+"bsp_constraints": "false",
+},
+"openamp_echo_test": {"userdefname": "OpenAMP echo-test",
+"description": " OpenAMP echo-test application ",
+"supp_proc": "psu_cortexr5 psv_cortexr5 ps7_cortexa9",
+"supp_os": "freertos10_xilinx standalone",
+"path": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/lib/sw_apps/openamp_echo_test",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"openamp_matrix_multiply": {"userdefname": "OpenAMP matrix multiplication Demo",
+"description": " OpenAMP matrix multiplication application ",
+"supp_proc": "psu_cortexr5 psv_cortexr5 ps7_cortexa9",
+"supp_os": "freertos10_xilinx standalone",
+"path": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/lib/sw_apps/openamp_matrix_multiply",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"openamp_rpc_demo": {"userdefname": "OpenAMP RPC Demo",
+"description": " OpenAMP rpc-demo application ",
+"supp_proc": "psu_cortexr5 psv_cortexr5 ps7_cortexa9",
+"supp_os": "freertos10_xilinx standalone",
+"path": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/lib/sw_apps/openamp_rpc_demo",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"peripheral_tests": {"userdefname": "Peripheral Tests",
+"description": "Simple test routines for all peripherals in the hardware.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 psu_cortexr5 microblaze psv_cortexa72 psv_cortexr5",
+"supp_os": "standalone xilkernel",
+"path": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/lib/sw_apps/peripheral_tests",
+"os": "standalone",
+"bsp_constraints": "false",
+},
+"rsa_auth_app": {"userdefname": "RSA Authentication App",
+"description": "Used to RSA authenticate a user application",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/lib/sw_apps/rsa_auth_app",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"srec_bootloader": {"userdefname": "SREC Bootloader",
+"description": "Simple bootloader for loading SREC images from non volatile memory. This program assumes that you have an SREC image programmed into BPI flash. The program also assumes that the target SREC image is an application for this processor that does not overlap the bootloader and resides in separate physical memory in the hardware. Typically this application is initialized into BRAM so that it bootloads the SREC image when the FPGA is powered up.
+
+Don't forget to modify blconfig.h to reflect the physical address where your SREC image resides in non-volatile memory!",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/lib/sw_apps/srec_bootloader",
+"os": "standalone",
+"bsp_constraints": "false",
+},
+"srec_spi_bootloader": {"userdefname": "SREC SPI Bootloader",
+"description": "Simple bootloader for loading SREC images from non volatile memory (SPI). This program assumes that you have an SREC image programmed into SPI flash already. The program also assumes that the target SREC image is an application for this processor that does not overlap the bootloader and resides in separate physical memory in the hardware. Typically this application is initialized into BRAM so that it bootloads the SREC image when the FPGA is powered up.
+
+Update the serial_flash_family and serial_flash_interface in xilisf library in BSP settings!
+
+Don't forget to modify blconfig.h to reflect the offset where your SREC image resides in non-volatile memory!",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/lib/sw_apps/srec_spi_bootloader",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"versal_plm": {"userdefname": "versal PLM",
+"description": "Platform Loader and Manager for versal.",
+"supp_proc": "psu_pmc psv_pmc",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/lib/sw_apps/versal_plm",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"versal_psmfw": {"userdefname": "versal PSM Firmware",
+"description": "Processing System Management Unit Firmware for versal.",
+"supp_proc": "psu_psm psv_psm",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/lib/sw_apps/versal_psmfw",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"zynqmp_dram_test": {"userdefname": "Zynq MP DRAM tests",
+"description": "This application runs out of OCM and performs memory tests on Zynq MP DRAM.  For more information about the test, refer to ZYNQMP_DRAM_DIAGNOSTICS_TEST.docx, in the src directory of the application",
+"supp_proc": "psu_cortexa53",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/lib/sw_apps/zynqmp_dram_test",
+"os": "standalone",
+"bsp_constraints": "false",
+},
+"zynqmp_fsbl": {"userdefname": "Zynq MP FSBL",
+"description": "First Stage Bootloader (FSBL) for Zynq Ultrascale+ MPSoC. The FSBL configures the FPGA with HW bit stream (if it exists)  and loads the Operating System (OS) Image or Standalone (SA) Image or 2nd Stage Boot Loader image from the  non-volatile memory (NAND/SD/QSPI) to RAM (DDR) and takes A53/R5 out of reset.  It supports multiple partitions,  and each partition can be a code image or a bit stream.",
+"supp_proc": "psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/lib/sw_apps/zynqmp_fsbl",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"zynqmp_pmufw": {"userdefname": "ZynqMP PMU Firmware",
+"description": "Platform Management Unit Firmware for ZynqMP.",
+"supp_proc": "psu_pmu",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/lib/sw_apps/zynqmp_pmufw",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"zynq_dram_test": {"userdefname": "Zynq DRAM tests",
+"description": "This application runs out of OCM and performs memory tests and read/write eye measurements on Zynq DRAM.  For more information about the test, refer to ZYNQ_DRAM_DIAGNOSTICS_TEST.docx, in the src directory of the application",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/lib/sw_apps/zynq_dram_test",
+"os": "standalone",
+"bsp_constraints": "false",
+},
+"zynq_fsbl": {"userdefname": "Zynq FSBL",
+"description": "First Stage Bootloader (FSBL) for Zynq. The FSBL configures the FPGA with HW bit stream (if it exists)  and loads the Operating System (OS) Image or Standalone (SA) Image or 2nd Stage Boot Loader image from the  non-volatile memory (NAND/NOR/QSPI) to RAM (DDR) and starts executing it.  It supports multiple partitions,  and each partition can be a code image or a bit stream.",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/lib/sw_apps/zynq_fsbl",
+"os": "standalone",
+"bsp_constraints": "true",
+},
+"linux_empty_app": {"userdefname": "Linux Empty Application",
+"description": "A blank Linux C project.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 microblaze psv_cortexa72",
+"supp_os": "linux",
+"path": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/lib/sw_apps_linux/linux_empty_app",
+"os": "linux",
+"bsp_constraints": "false",
+},
+"linux_hello_world": {"userdefname": "Linux Hello World",
+"description": "Let's say 'Hello World' in C.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 microblaze psv_cortexa72",
+"supp_os": "linux",
+"path": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/lib/sw_apps_linux/linux_hello_world",
+"os": "linux",
+"bsp_constraints": "false",
+},
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:37.256
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/TAMBEC~1/AppData/Local/Temp/hwspec_design_1_wrapper4220714029909968063/design_1_wrapper.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:37.452
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/TAMBEC~1/AppData/Local/Temp/hwspec_design_1_wrapper4220714029909968063/design_1_wrapper.xsa], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:37.460
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Users/TAMBEC~1/AppData/Local/Temp/hwspec_design_1_wrapper4220714029909968063/design_1_wrapper.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:37.473
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Users/TAMBEC~1/AppData/Local/Temp/hwspec_design_1_wrapper4220714029909968063/design_1_wrapper.xsa], Result: [null, {"axi_sdcard_0": {"hier_name": "axi_sdcard_0",
+"type": "axi_sdcard",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_0": {"hier_name": "clk_wiz_0",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "11.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_intc": {"hier_name": "microblaze_0_axi_intc",
+"type": "axi_intc",
+"version": "4.1",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"microblaze_0_xlconcat": {"hier_name": "microblaze_0_xlconcat",
+"type": "xlconcat",
+"version": "2.1",
+"ip_type": "PERIPHERAL",
+},
+"rst_clk_wiz_0_100M": {"hier_name": "rst_clk_wiz_0_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"xlconstant_0": {"hier_name": "xlconstant_0",
+"type": "xlconstant",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:37.646
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:37.813
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:37.820
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:37.838
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa], Result: [null, {"axi_sdcard_0": {"hier_name": "axi_sdcard_0",
+"type": "axi_sdcard",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_0": {"hier_name": "clk_wiz_0",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "11.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_intc": {"hier_name": "microblaze_0_axi_intc",
+"type": "axi_intc",
+"version": "4.1",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"microblaze_0_xlconcat": {"hier_name": "microblaze_0_xlconcat",
+"type": "xlconcat",
+"version": "2.1",
+"ip_type": "PERIPHERAL",
+},
+"rst_clk_wiz_0_100M": {"hier_name": "rst_clk_wiz_0_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"xlconstant_0": {"hier_name": "xlconstant_0",
+"type": "xlconstant",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:37.845
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/TAMBEC~1/AppData/Local/Temp/hwspec_design_1_wrapper4220714029909968063/design_1_wrapper.xsa -os standalone -processor microblaze_0 -app hello_world -sw C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/sw/linuxfpga/standalone_domain/system.mss -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:37.860
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/TAMBEC~1/AppData/Local/Temp/hwspec_design_1_wrapper4220714029909968063/design_1_wrapper.xsa -os standalone -processor microblaze_0 -app hello_world -sw C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/sw/linuxfpga/standalone_domain/system.mss -arch {}], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:37.868
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/TAMBEC~1/AppData/Local/Temp/hwspec_design_1_wrapper4220714029909968063/design_1_wrapper.xsa -os standalone -processor microblaze_0 -app hello_world -sw C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/sw/linuxfpga/standalone_domain/system.mss -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:37.880
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/TAMBEC~1/AppData/Local/Temp/hwspec_design_1_wrapper4220714029909968063/design_1_wrapper.xsa -os standalone -processor microblaze_0 -app hello_world -sw C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/sw/linuxfpga/standalone_domain/system.mss -arch {}], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:40.289
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga_app/system.mss ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:40.313
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga_app/system.mss ], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:40.321
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga_app/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:40.338
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga_app/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.2",
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:42.151
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa microblaze_0 C_USE_REORDER_INSTR], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:42.164
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa microblaze_0 C_USE_REORDER_INSTR], Result: [null, 0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:42.172
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa microblaze_0 C_ENDIANNESS], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:42.211
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa microblaze_0 C_ENDIANNESS], Result: [null, 1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:42.251
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa microblaze_0 C_USE_BARREL], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:42.302
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa microblaze_0 C_USE_BARREL], Result: [null, 1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:42.321
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa microblaze_0 C_USE_PCMP_INSTR], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:42.357
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa microblaze_0 C_USE_PCMP_INSTR], Result: [null, 1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:42.369
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa microblaze_0 C_USE_DIV], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:42.382
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa microblaze_0 C_USE_DIV], Result: [null, 0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:42.392
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa microblaze_0 C_USE_FPU], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:42.404
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa microblaze_0 C_USE_FPU], Result: [null, 0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:42.415
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa microblaze_0 C_USE_HW_MUL], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:42.427
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa microblaze_0 C_USE_HW_MUL], Result: [null, 1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:42.438
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa microblaze_0 C_AREA_OPTIMIZED], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:42.450
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa microblaze_0 C_AREA_OPTIMIZED], Result: [null, 1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:42.466
+!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:42.489
+!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa], Result: [null, {"microblaze_0": {"freertos10_xilinx_v1_6": {"name": "freertos10_xilinx",
+"version": "1.6",
+"desc": "This Xilinx FreeRTOS port is based on FreeRTOS kernel version 10.3.0",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_6",
+},
+"standalone_v7_2": {"name": "standalone",
+"version": "7.2",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/lib/bsp/standalone_v7_2",
+},
+},
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:42.498
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga_app/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:42.512
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga_app/system.mss], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:42.521
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga_app/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:42.538
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga_app/system.mss], Result: [null, {}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:42.545
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa microblaze_0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:42.554
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa microblaze_0], Result: [null, axi_sdcard_0 axi_uartlite_0 microblaze_0_axi_intc microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:42.561
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga_app/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:42.576
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga_app/system.mss], Result: [null, {"axi_sdcard_0": {"name": "generic",
+"ver": "2.1",
+},
+"axi_uartlite_0": {"name": "uartlite",
+"ver": "3.4",
+},
+"microblaze_0_axi_intc": {"name": "intc",
+"ver": "3.11",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.4",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.4",
+},
+"microblaze_0": {"name": "cpu",
+"ver": "2.11",
+},
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:42.583
+!MESSAGE XSCT Command: [hsi::utils::get_drivers_for_hw -json C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:42.680
+!MESSAGE XSCT command with result: [hsi::utils::get_drivers_for_hw -json C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa], Result: [null, {"axi_sdcard_0": {"version": "1.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+},
+},
+"axi_uartlite_0": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+"uartlite_v3_4": {"name": "uartlite",
+"version": "3.4",
+"repo": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/uartlite_v3_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"clk_wiz_0": {"version": "6.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+"clk_wiz_v1_3": {"name": "clk_wiz",
+"version": "1.3",
+"repo": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/clk_wiz_v1_3",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"mdm_1": {"version": "3.2",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+"uartlite_v3_4": {"name": "uartlite",
+"version": "3.4",
+"repo": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/uartlite_v3_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0": {"version": "11.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+"cpu_v2_11": {"name": "cpu",
+"version": "2.11",
+"repo": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/cpu_v2_11",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_axi_intc": {"version": "4.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+"intc_v3_11": {"name": "intc",
+"version": "3.11",
+"repo": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/intc_v3_11",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_axi_periph": {"version": "2.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+},
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"version": "4.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+"bram_v4_4": {"name": "bram",
+"version": "4.4",
+"repo": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/bram_v4_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_local_memory_dlmb_v10": {"version": "3.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+},
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"version": "4.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+"bram_v4_4": {"name": "bram",
+"version": "4.4",
+"repo": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/bram_v4_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_local_memory_ilmb_v10": {"version": "3.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+},
+},
+"microblaze_0_local_memory_lmb_bram": {"version": "8.4",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+},
+},
+"microblaze_0_xlconcat": {"version": "2.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+},
+},
+"rst_clk_wiz_0_100M": {"version": "5.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+},
+},
+"xlconstant_0": {"version": "1.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+},
+},
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:42.689
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga_app/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:42.702
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga_app/system.mss], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:42.710
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga_app/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:42.726
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga_app/system.mss], Result: [null, {}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:42.853
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:42.866
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:42.879
+!MESSAGE XSCT Command: [::hsi::utils::opensw C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga_app/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:42.890
+!MESSAGE XSCT command with result: [::hsi::utils::opensw C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga_app/system.mss], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:42.900
+!MESSAGE XSCT Command: [::hsi::utils::generate_app_template -hw C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa -sw C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga_app/system.mss -app hello_world -processor microblaze_0 -os standalone -dir C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga_app/src], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:43.154
+!MESSAGE XSCT command with result: [::hsi::utils::generate_app_template -hw C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa -sw C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga_app/system.mss -app hello_world -processor microblaze_0 -os standalone -dir C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga_app/src], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:43.361
+!MESSAGE XSCT Command: [hsi::internal::extract_hw_files -quiet bit mmi bmm -dir {C:\Users\tambechristian\Documents\Electronics\Nexys_A7\LinuxFpga_03\sw\linuxfpga_app\_ide\bitstream}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:43.458
+!MESSAGE XSCT command with result: [hsi::internal::extract_hw_files -quiet bit mmi bmm -dir {C:\Users\tambechristian\Documents\Electronics\Nexys_A7\LinuxFpga_03\sw\linuxfpga_app\_ide\bitstream}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:43.465
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:43.474
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa], Result: [null, {"device": "7a100t",
+"family": "artix7",
+"timestamp": "Sat Jul 25 08:17:54 2020",
+"vivado_version": "2020.1",
+"part": "xc7a100tcsg324-1",
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:43.655
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga_app/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:43.665
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga_app/system.mss], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-07-25 08:32:43.802
+!MESSAGE Generating MD5 hash for file: C:\Users\tambechristian\Documents\Electronics\Nexys_A7\LinuxFpga_03\sw\linuxfpga\export\linuxfpga\sw\linuxfpga\standalone_domain\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:44.960
+!MESSAGE XSCT Command: [::hsi::utils::closehw C:/Users/TAMBEC~1/AppData/Local/Temp/hwspec_design_1_wrapper4220714029909968063/design_1_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:32:44.981
+!MESSAGE XSCT command with result: [::hsi::utils::closehw C:/Users/TAMBEC~1/AppData/Local/Temp/hwspec_design_1_wrapper4220714029909968063/design_1_wrapper.xsa], Result: [null, ]. Thread: main
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-07-25 08:32:46.063
+!MESSAGE Indexed 'linuxfpga_app' (2 sources, 54 headers) in 1.11 sec: 1,532 declarations; 2,218 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-07-25 08:32:46.078
+!MESSAGE Indexed 'linuxfpga_app_system' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:21.528
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/sw/linuxfpga/standalone_domain/system.mss ], Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:21.554
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/sw/linuxfpga/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:21.564
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/sw/linuxfpga/standalone_domain/system.mss], Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:21.576
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/sw/linuxfpga/standalone_domain/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.2",
+}]. Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-07-25 08:33:21.583
+!MESSAGE Generating MD5 hash for file: C:\Users\tambechristian\Documents\Electronics\Nexys_A7\LinuxFpga_03\sw\linuxfpga\export\linuxfpga\sw\linuxfpga\standalone_domain\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:21.592
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/sw/linuxfpga/standalone_domain/system.mss], Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:21.602
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/sw/linuxfpga/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:35.029
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa microblaze_0 C_DEBUG_ENABLED], Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:35.050
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa microblaze_0 C_DEBUG_ENABLED], Result: [null, 1]. Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:35.084
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa microblaze_0 C_DEBUG_PROFILE_SIZE], Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:35.109
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa microblaze_0 C_DEBUG_PROFILE_SIZE], Result: [null, 0]. Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:35.121
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa microblaze_0 C_FREQ], Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:35.135
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa microblaze_0 C_FREQ], Result: [null, 100000000]. Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:35.274
+!MESSAGE XSCT Command: [::hsi::utils::get_ps_config_params -json C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa], Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:35.291
+!MESSAGE XSCT command with result: [::hsi::utils::get_ps_config_params -json C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa], Result: [null, {}]. Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:35.301
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa microblaze_0], Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:35.373
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa microblaze_0], Result: [null, {"axi_sdcard_0": {},
+"axi_uartlite_0": {"RX_FIFO": {"description": "Receive data FIFO",
+"address_offset": "0x0",
+"access": "read-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RX_DATA": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "UART Receive Data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080033280,
+},
+"TX_FIFO": {"description": "Transmit data FIFO",
+"address_offset": "0x4",
+"access": "write-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"TX_DATA": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "UART Transmit Data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080033284,
+},
+"CTRL_REG": {"description": "UART Lite control register",
+"address_offset": "0xC",
+"access": "write-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RST_TXFIFO": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Reset/clear the transmit FIFO
+Writing a 1 to this bit position clears the transmit FIFO
+  0 - Do nothing
+  1 - Clear the transmit FIFO
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RST_RXFIFO": {"access": "write-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Reset/clear the receive FIFO
+Writing a 1 to this bit position clears the receive FIFO
+  0 - Do nothing
+  1 - Clear the receive FIFO
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Enable_Intr": {"access": "write-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable interrupt for the AXI UART Lite
+  0 - Disable interrupt signal
+  1 - Enable interrupt signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080033292,
+},
+"STAT_REG": {"description": "UART Lite status register",
+"address_offset": "0x8",
+"access": "read-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RX_FIFO_Valid_Data": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the receive FIFO has data.
+  0 - Receive FIFO is empty
+  1 - Receive FIFO has data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RX_FIFO_Full": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the receive FIFO is full.
+  0 - Receive FIFO is not full
+  1 - Receive FIFO is full
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"TX_FIFO_Empty": {"access": "read-only",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the transmit FIFO is empty.
+  0 - Transmit FIFO is not empty
+  1 - Transmit FIFO is empty
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"TX_FIFO_Full": {"access": "read-only",
+"bit_offset": "3",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the transmit FIFO is full.
+  0 - Transmit FIFO is not full
+  1 - Transmit FIFO is full
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Intr_Enabled": {"access": "read-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that interrupts is enabled.
+  0 - Interrupt is disabled
+  1 - Interrupt is enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Overrun_Error": {"access": "read-only",
+"bit_offset": "5",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a overrun error has occurred after the last time the status register was read. Overrun is when a new character has been received but the receive FIFO is full. The received character is ignored and not written into the receive FIFO. This bit is cleared when the status register is read.      0 - No overrun error has occurred      1 - Overrun error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Frame_Error": {"access": "read-only",
+"bit_offset": "6",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a frame error has occurred after the last time the status register was read. Frame error is defined as detection of a stop bit with the value 0. The receive character is ignored and not written to the receive FIFO. This bit is cleared when the status register is read.      0 - No frame error has occurred   1 - Frame error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Parity_Error": {"access": "read-only",
+"bit_offset": "7",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a parity error has occurred after the last time the status register was read. If the UART is configured without any parity handling, this bit is always 0. The received character is written into the receive FIFO. This bit is cleared when the status register is read.      0 - No parity error has occurred      1 - Parity error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080033288,
+},
+},
+"microblaze_0_axi_intc": {"ISR": {"description": "Interrupt Status Register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "2",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "2",
+"desc": "Interrupt Status Register.
+For each bit up to number of periperhal interrupts:
+  R - Reads active interrupt signal.
+  W - No effect after MER HIE bit has been set, otherwise writes active interrupt signal.
+For remaining bits defined by number of software interrupts:
+  R - Reads software interrupt value.
+  W - Writes software interrupt value.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616192,
+},
+"IPR": {"description": "Interrupt Pending Register",
+"address_offset": "0x4",
+"access": "read-only",
+"size": "2",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "2",
+"desc": "Interrupt Pending Register.
+For each bit:
+  R - Reads logical AND of bits in ISR and IER.
+  W - No effect.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616196,
+},
+"IER": {"description": "Interrupt Enable Register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "2",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "2",
+"desc": "Interrupt Enable Register.
+For each bit:
+  R - Reads interrupt enable value.
+  W - Writes interrupt enable value.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616200,
+},
+"IAR": {"description": "Interrupt Acknowledge Register",
+"address_offset": "0xC",
+"access": "write-only",
+"size": "2",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "2",
+"desc": "Interrupt Acknowledge Register.
+For each bit:
+  W - Acknowledge interrupt.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616204,
+},
+"SIE": {"description": "Set Interrupt Enables",
+"address_offset": "0x10",
+"access": "read-write",
+"size": "2",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "2",
+"desc": "Set Interrupt Enables
+For each bit:
+  R - Reads active interrupt.
+  W - Writing 1 enables the interrupt, writing 0 has no effect.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616208,
+},
+"CIE": {"description": "Clear Interrupt Enables",
+"address_offset": "0x14",
+"access": "read-write",
+"size": "2",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "2",
+"desc": "Clear Interrupt Enables
+For each bit:
+  R - Reads active interrupt.
+  W - Writing 1 disables the interrupt, writing 0 has no effect.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616212,
+},
+"IVR": {"description": "Interrupt Vector Register",
+"address_offset": "0x18",
+"access": "read-only",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"IVN": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "Interrupt Vector Number.
+  R - Reads ordinal of highest priority, enabled, active interrupt.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616216,
+},
+"MER": {"description": "Master Enable Register",
+"address_offset": "0x1C",
+"access": "read-write",
+"size": "2",
+"interface": "S_AXI",
+"fields": {"ME": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master IRQ Enable.
+  0 - All interrupts disabled.
+  1 - All interrupts can be enabled.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"HIE": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Hardware Interrupt Enable.
+  0 - HW interrupts disabled.
+  1 - HW interrupts enabled.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616220,
+},
+"IMR": {"description": "Interrupt Mode Register",
+"address_offset": "0x20",
+"access": "read-write",
+"size": "2",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "2",
+"desc": "Interrupt Mode Register.
+For each bit:
+  R - Reads interrupt mode.
+  W - Sets interrupt mode, where 0 is normal mode and 1 is fast mode.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616224,
+},
+"IVAR[0]": {"description": "Interrupt Vector Address Register 0",
+"address_offset": "0x100",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"IVA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Interrupt vector address of active interrupt 0 with highest priority.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616448,
+},
+"IVAR[1]": {"description": "Interrupt Vector Address Register 1",
+"address_offset": "0x104",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"IVA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Interrupt vector address of active interrupt 1 with highest priority.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616452,
+},
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {},
+}]. Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:35.386
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa microblaze_0], Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:35.405
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa microblaze_0], Result: [null, {"axi_uartlite_0_S_AXI": {"name": "axi_uartlite_0",
+"base": "0x40600000",
+"high": "0x4060FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"microblaze_0_axi_intc_s_axi": {"name": "microblaze_0_axi_intc",
+"base": "0x41200000",
+"high": "0x4120FFFF",
+"size": "65536",
+"slaveintf": "s_axi",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_sdcard_0_S_AXI": {"name": "axi_sdcard_0",
+"base": "0x44A00000",
+"high": "0x44A0FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr_SLMB_Mem": {"name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"base": "0x00000000",
+"high": "0x0000FFFF",
+"size": "65536",
+"slaveintf": "SLMB",
+"type": "MEMORY",
+"flags": "7",
+"segment": "Mem",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:35.417
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa], Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:35.440
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa], Result: [null, {"microblaze_0": {"bscan": "2",
+"index": "0",
+},
+}]. Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:35.450
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa mdm_1], Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:35.463
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa mdm_1], Result: [null, {}]. Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:35.472
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa mdm_1], Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:35.488
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa mdm_1], Result: [null, {"microblaze_0": {},
+}]. Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:35.500
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa mdm_1], Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:35.514
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa mdm_1], Result: [null, microblaze_0]. Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:35.534
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa microblaze_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:35.588
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa microblaze_0 C_DEBUG_EVENT_COUNTERS], Result: [null, 5]. Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:35.597
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa microblaze_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:35.610
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa microblaze_0 C_DEBUG_COUNTER_WIDTH], Result: [null, 32]. Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:35.620
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY org.eclipse.tcf 4 0 2020-07-25 08:33:36.994
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:37.037
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#2]. Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:37.047
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:37.549
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys A7 -100T 210292AD2FC0A]. Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:37.560
+!MESSAGE XSCT Command: [version -server], Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:37.571
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2020.1]. Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:37.580
+!MESSAGE XSCT Command: [version], Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:37.590
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2020.1
+SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:37.607
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:37.626
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys A7 -100T 210292AD2FC0A]. Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:37.636
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292AD2FC0A" && level==1}], Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:37.695
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292AD2FC0A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:37.706
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:37.718
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys A7 -100T 210292AD2FC0A]. Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:37.726
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292AD2FC0A" && level==1}], Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:37.773
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292AD2FC0A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:37.780
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:37.794
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys A7 -100T 210292AD2FC0A]. Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:37.800
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292AD2FC0A" && level==1}], Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:37.828
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292AD2FC0A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:37.834
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:37.847
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys A7 -100T 210292AD2FC0A]. Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:37.853
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292AD2FC0A" && level==1}], Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:37.880
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292AD2FC0A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:37.887
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:37.900
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys A7 -100T 210292AD2FC0A]. Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:37.906
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292AD2FC0A" && level==1}], Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:37.934
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292AD2FC0A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:37.940
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys A7 -100T 210292AD2FC0A" && level == 0}], Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:37.966
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys A7 -100T 210292AD2FC0A" && level == 0}], Result: [null, ]. Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:37.972
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:37.981
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:37.988
+!MESSAGE XSCT Command: [::hsi::utils::get_clock_info -json C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa microblaze_0], Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:37.997
+!MESSAGE XSCT command with result: [::hsi::utils::get_clock_info -json C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa microblaze_0], Result: [null, {"Clk": "100000000",
+"Dbg_Clk": "",
+}]. Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:38.036
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:38.057
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys A7 -100T 210292AD2FC0A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:38.065
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292AD2FC0A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:38.097
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292AD2FC0A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:38.108
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:38.117
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#2]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:38.126
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:38.139
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys A7 -100T 210292AD2FC0A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:38.147
+!MESSAGE XSCT Command: [proc fetch_device_jtag_ctx { node_id } {
+foreach t [jtag ta -ta] {
+if {[dict get $t node_id] == $node_id} {
+return [dict get $t target_ctx]
+}
+}
+error cannot find a jtag device with node id $node_id}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:38.154
+!MESSAGE XSCT command with result: [proc fetch_device_jtag_ctx { node_id } {
+foreach t [jtag ta -ta] {
+if {[dict get $t node_id] == $node_id} {
+return [dict get $t target_ctx]
+}
+}
+error cannot find a jtag device with node id $node_id}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:38.161
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:38.176
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys A7 -100T 210292AD2FC0A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:38.190
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292AD2FC0A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:38.240
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292AD2FC0A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:38.253
+!MESSAGE XSCT Command: [fetch_device_jtag_ctx 2], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:38.273
+!MESSAGE XSCT command with result: [fetch_device_jtag_ctx 2], Result: [null, jsn-Nexys A7 -100T-210292AD2FC0A-13631093-0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:38.292
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292AD2FC0A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292AD2FC0A-13631093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:38.408
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292AD2FC0A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292AD2FC0A-13631093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:38.418
+!MESSAGE XSCT Command: [fpga -file C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga_app/_ide/bitstream/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:40.634
+!MESSAGE XSCT command with result: [fpga -file C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga_app/_ide/bitstream/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:40.675
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:40.726
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:40.733
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa -regs], Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:40.779
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga/export/linuxfpga/hw/design_1_wrapper.xsa -regs], Result: [null, design_1_wrapper_3]. Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:40.786
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:40.794
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:40.801
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:40.827
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:40.833
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:40.844
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:40.851
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:43.858
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:43.865
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:43.888
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:43.895
+!MESSAGE XSCT Command: [dow C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga_app/Debug/linuxfpga_app.elf], Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:43.973
+!MESSAGE XSCT command with result: [dow C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/sw/linuxfpga_app/Debug/linuxfpga_app.elf], Result: [null, ]. Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:44.095
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:44.153
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:44.160
+!MESSAGE XSCT Command: [con], Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:33:44.181
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-0: Launching SystemDebugger_linuxfpga_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:34:26.812
+!MESSAGE XSCT Command: [disconnect tcfchan#2], Thread: Thread-155
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-25 08:34:26.866
+!MESSAGE XSCT command with result: [disconnect tcfchan#2], Result: [null, ]. Thread: Thread-155

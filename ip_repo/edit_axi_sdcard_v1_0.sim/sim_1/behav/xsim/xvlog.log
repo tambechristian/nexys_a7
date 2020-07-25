@@ -1,0 +1,21 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/PROJECTS_Boards/Design_project/Nexys_A7/ip_repo/axi_sdcard_1.0/src/fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/PROJECTS_Boards/Design_project/Nexys_A7/ip_repo/axi_sdcard_1.0/src/phy.spimaster.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spimasterphy
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/PROJECTS_Boards/Design_project/Nexys_A7/ip_repo/axi_sdcard_1.0/src/sdcard.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spimasterlib
+INFO: [VRFC 10-311] analyzing module sdcardphy
+INFO: [VRFC 10-311] analyzing module sdcard
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/PROJECTS_Boards/Design_project/Nexys_A7/ip_repo/axi_sdcard_1.0/src/spimaster.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/PROJECTS_Boards/Design_project/Nexys_A7/ip_repo/axi_sdcard_1.0/src/spimode.sdcard.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sdcardphy
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'sdcardphy' [C:/PROJECTS_Boards/Design_project/Nexys_A7/ip_repo/axi_sdcard_1.0/src/spimode.sdcard.v:246]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/PROJECTS_Boards/Design_project/Nexys_A7/ip_repo/axi_sdcard_1.0/src/axi4.sdcard.v" into library work
+INFO: [VRFC 10-311] analyzing module fifo
+INFO: [VRFC 10-311] analyzing module spimasterphy
+INFO: [VRFC 10-311] analyzing module spimasterlib
+INFO: [VRFC 10-311] analyzing module sdcardphy
+INFO: [VRFC 10-311] analyzing module sdcard
+INFO: [VRFC 10-311] analyzing module axi4sdcard
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/PROJECTS_Boards/Design_project/Nexys_A7/ip_repo/edit_axi_sdcard_v1_0.sim/sim_1/behav/xsim/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl

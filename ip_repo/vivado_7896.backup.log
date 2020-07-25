@@ -1,0 +1,213 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Jul 24 20:13:10 2020
+# Process ID: 7896
+# Current directory: C:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16972 C:\Users\tambechristian\Documents\Electronics\Nexys_A7\ip_repo\edit_axi_sdcard_v1_0.xpr
+# Log file: C:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/vivado.log
+# Journal file: C:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'C:/Users/tambechristian/AppData/Roaming/Xilinx/Vivado/Vivado_init.tcl'
+start_gui
+open_project C:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/edit_axi_sdcard_v1_0.xpr
+INFO: [Project 1-313] Project file moved from 'C:/PROJECTS_Boards/Design_project/Nexys_A7/ip_repo' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] Board Part Repository Path: Could not find the directory 'C:/Users/tambechristian/Documents/Electronics/vivado-boards/new/board_files', nor could it be found using path 'C:/PROJECTS_Boards/Design_project/vivado-boards/new/board_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:15 . Memory (MB): peak = 1062.441 ; gain = 0.000
+update_compile_order -fileset sources_1
+ipx::open_ipxact_file C:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0/component.xml
+WARNING: [IP_Flow 19-5226] Project source file 'c:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0/component.xml' ignored by IP packager.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_verilogsynthesis (Verilog Synthesis)': File 'c:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0/hdl/axi4_sdcard.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_verilogsynthesis (Verilog Synthesis)': File 'c:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0/hdl/fifo.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_verilogsynthesis (Verilog Synthesis)': File 'c:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0/hdl/phy_spimaster.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_verilogsynthesis (Verilog Synthesis)': File 'c:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0/hdl/sdcard.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_verilogsynthesis (Verilog Synthesis)': File 'c:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0/hdl/spimaster.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_verilogsynthesis (Verilog Synthesis)': File 'c:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0/hdl/spimode_sdcard.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_verilogsynthesis (Verilog Synthesis)': File 'c:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0/hdl/axi_sdcard_v1_0.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'c:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0/hdl/axi4_sdcard.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'c:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0/hdl/fifo.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'c:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0/hdl/phy_spimaster.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'c:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0/hdl/sdcard.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'c:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0/hdl/spimaster.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'c:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0/hdl/spimode_sdcard.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'c:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0/hdl/axi_sdcard_v1_0.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-5226] Project source file 'c:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0/component.xml' ignored by IP packager.
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+WARNING: [IP_Flow 19-5226] Project source file 'c:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0/component.xml' ignored by IP packager.
+INFO: [IP_Flow 19-1842] HDL Parser: Found include file "hdl/fifo.v" from the top-level HDL file.
+INFO: [IP_Flow 19-1842] HDL Parser: Found include file "hdl/phy_spimaster.v" from the top-level HDL file.
+INFO: [IP_Flow 19-1842] HDL Parser: Found include file "hdl/spimaster.v" from the top-level HDL file.
+INFO: [IP_Flow 19-3166] Bus Interface 'S_AXI': References existing memory map 'S_AXI'.
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property core_revision 118 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0'
+ipx::check_integrity -quiet [ipx::current_core]
+ipx::archive_core {c:\Users\tambechristian\Documents\Electronics\Nexys_A7\ip_repo\axi_sdcard_1.0\intel.com_user_axi_sdcard_1.0.zip} [ipx::current_core]
+set_property core_revision 119 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0'
+ipx::check_integrity -quiet [ipx::current_core]
+ipx::archive_core {c:\Users\tambechristian\Documents\Electronics\Nexys_A7\ip_repo\axi_sdcard_1.0\intel.com_user_axi_sdcard_1.0.zip} [ipx::current_core]
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: axi_sdcard_v1_0
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1583.273 ; gain = 232.973
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'axi_sdcard_v1_0' [C:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0/hdl/axi_sdcard_v1_0.v:5]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_S_AXI_ARUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_AWUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_WUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_RUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_BUSER_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'axi4sdcard' [C:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0/hdl/axi4_sdcard.v:28]
+	Parameter C_S_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ACLK_FREQ_HZ bound to: 100000000 - type: integer 
+	Parameter C_S_AXI_MEM0_BASEADDR bound to: -1 - type: integer 
+	Parameter C_S_AXI_BASEADDR bound to: 1151336448 - type: integer 
+	Parameter C_S_AXI_HIGHADDR bound to: 1151401983 - type: integer 
+	Parameter C_S_AXI_ARUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_AWUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_WUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_RUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_BUSER_WIDTH bound to: 1 - type: integer 
+	Parameter OKAY bound to: 2'b00 
+	Parameter EXOKAY bound to: 2'b01 
+INFO: [Synth 8-6157] synthesizing module 'sdcard' [C:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0/hdl/sdcard.v:185]
+	Parameter CLKFREQ bound to: 100000000 - type: integer 
+	Parameter CACHESIZE bound to: 512 - type: integer 
+	Parameter MEMNOOP bound to: 2'b00 
+	Parameter MEMWRITEOP bound to: 2'b01 
+	Parameter MEMREADOP bound to: 2'b10 
+	Parameter MEMREADWRITEOP bound to: 2'b11 
+	Parameter CMDRESET bound to: 0 - type: integer 
+	Parameter CMDSWAP bound to: 1 - type: integer 
+	Parameter CMDREAD bound to: 2 - type: integer 
+	Parameter CMDWRITE bound to: 3 - type: integer 
+	Parameter STATUSPOWEROFF bound to: 0 - type: integer 
+	Parameter STATUSREADY bound to: 1 - type: integer 
+	Parameter STATUSBUSY bound to: 2 - type: integer 
+	Parameter STATUSERROR bound to: 3 - type: integer 
+	Parameter ZERO bound to: 0 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'sdcardphy' [C:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0/hdl/spimode_sdcard.v:246]
+	Parameter CLKFREQ bound to: 100000000 - type: integer 
+	Parameter RESETTING bound to: 0 - type: integer 
+	Parameter READY bound to: 1 - type: integer 
+	Parameter SENDCMD0 bound to: 2 - type: integer 
+	Parameter SENDCMD59 bound to: 3 - type: integer 
+	Parameter SENDCMD8 bound to: 4 - type: integer 
+	Parameter SENDINIT bound to: 5 - type: integer 
+	Parameter SENDCMD41 bound to: 6 - type: integer 
+	Parameter SENDCMD6 bound to: 7 - type: integer 
+	Parameter SENDCMD9 bound to: 8 - type: integer 
+	Parameter SENDCMD58 bound to: 9 - type: integer 
+	Parameter SENDCMD16 bound to: 10 - type: integer 
+	Parameter SENDCMD17 bound to: 11 - type: integer 
+	Parameter SENDCMD24 bound to: 12 - type: integer 
+	Parameter SENDCMD13 bound to: 13 - type: integer 
+	Parameter CMD0RESP bound to: 14 - type: integer 
+	Parameter CMD59RESP bound to: 15 - type: integer 
+	Parameter CMD8RESP bound to: 16 - type: integer 
+	Parameter INITRESP bound to: 17 - type: integer 
+	Parameter CMD6RESP bound to: 18 - type: integer 
+	Parameter CMD9RESP bound to: 19 - type: integer 
+	Parameter CMD58RESP bound to: 20 - type: integer 
+	Parameter CMD16RESP bound to: 21 - type: integer 
+	Parameter CMD17RESP bound to: 22 - type: integer 
+	Parameter CMD24RESP bound to: 23 - type: integer 
+	Parameter CMD13RESP bound to: 24 - type: integer 
+	Parameter PREPCMD59 bound to: 25 - type: integer 
+	Parameter PREPCMD8 bound to: 26 - type: integer 
+	Parameter PREPINIT bound to: 27 - type: integer 
+	Parameter PREPCMD41 bound to: 28 - type: integer 
+	Parameter PREPCMD9 bound to: 29 - type: integer 
+	Parameter PREPCMD58 bound to: 30 - type: integer 
+	Parameter PREPCMD16 bound to: 31 - type: integer 
+	Parameter PREPCMD13 bound to: 32 - type: integer 
+	Parameter PREPREADY bound to: 33 - type: integer 
+	Parameter ERROR bound to: 34 - type: integer 
+	Parameter SCLKDIVIDELIMIT bound to: 9 - type: integer 
+	Parameter SPIBUFFERSIZE bound to: 2 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'spimasterlib' [C:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0/hdl/spimaster.v:143]
+	Parameter BUFFERSIZE bound to: 2 - type: integer 
+	Parameter DATABITSIZE bound to: 8 - type: integer 
+	Parameter SCLKDIVIDELIMIT bound to: 9 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'spimasterphy' [C:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0/hdl/phy_spimaster.v:137]
+	Parameter DATABITSIZE bound to: 8 - type: integer 
+	Parameter SCLKDIVIDELIMIT bound to: 9 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'spimasterphy' (1#1) [C:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0/hdl/phy_spimaster.v:137]
+INFO: [Synth 8-6157] synthesizing module 'fifo' [C:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0/hdl/fifo.v:151]
+	Parameter DATABITSIZE bound to: 8 - type: integer 
+	Parameter BUFFERSIZE bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'fifo' (2#1) [C:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0/hdl/fifo.v:151]
+INFO: [Synth 8-6155] done synthesizing module 'spimasterlib' (3#1) [C:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0/hdl/spimaster.v:143]
+INFO: [Synth 8-6155] done synthesizing module 'sdcardphy' (4#1) [C:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0/hdl/spimode_sdcard.v:246]
+INFO: [Synth 8-6155] done synthesizing module 'sdcard' (5#1) [C:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0/hdl/sdcard.v:185]
+WARNING: [Synth 8-689] width (30) of port connection 'memaddr' does not match port width (8) of module 'sdcard' [C:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0/hdl/axi4_sdcard.v:332]
+WARNING: [Synth 8-7071] port 'memmapsz' of module 'sdcard' is unconnected for instance 'sdcard0' [C:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0/hdl/axi4_sdcard.v:320]
+WARNING: [Synth 8-7023] instance 'sdcard0' of module 'sdcard' has 15 connections declared, but only 14 given [C:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0/hdl/axi4_sdcard.v:320]
+INFO: [Synth 8-6155] done synthesizing module 'axi4sdcard' (6#1) [C:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0/hdl/axi4_sdcard.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'axi_sdcard_v1_0' (7#1) [C:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0/hdl/axi_sdcard_v1_0.v:5]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1732.777 ; gain = 382.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1753.859 ; gain = 403.559
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1753.859 ; gain = 403.559
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.069 . Memory (MB): peak = 1753.859 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-141] Inserted 3 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1869.148 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:29 ; elapsed = 00:00:20 . Memory (MB): peak = 1869.148 ; gain = 518.848
+19 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:38 ; elapsed = 00:00:41 . Memory (MB): peak = 1869.148 ; gain = 796.324
+close_design
+set_property core_revision 120 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0'
+ipx::check_integrity -quiet [ipx::current_core]
+ipx::archive_core {c:\Users\tambechristian\Documents\Electronics\Nexys_A7\ip_repo\axi_sdcard_1.0\intel.com_user_axi_sdcard_1.0.zip} [ipx::current_core]
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jul 24 20:22:01 2020...

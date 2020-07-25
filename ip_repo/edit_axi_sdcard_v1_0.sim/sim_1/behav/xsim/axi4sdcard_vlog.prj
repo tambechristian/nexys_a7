@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../axi_sdcard_1.0/src/fifo.v" \
+"../../../../axi_sdcard_1.0/src/phy.spimaster.v" \
+"../../../../axi_sdcard_1.0/src/sdcard.v" \
+"../../../../axi_sdcard_1.0/src/spimaster.v" \
+"../../../../axi_sdcard_1.0/src/spimode.sdcard.v" \
+
+verilog work  \
+"../../../../axi_sdcard_1.0/src/axi4.sdcard.v" \
+
+# compile glbl module
+verilog work "glbl.v"
+
+# Do not sort compile order
+nosort

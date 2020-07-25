@@ -1,0 +1,432 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Jul 25 08:18:06 2020
+# Process ID: 24080
+# Current directory: C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/LinuxFpga_03.runs/design_1_axi_sdcard_0_0_synth_1
+# Command line: vivado.exe -log design_1_axi_sdcard_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_sdcard_0_0.tcl
+# Log file: C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/LinuxFpga_03.runs/design_1_axi_sdcard_0_0_synth_1/design_1_axi_sdcard_0_0.vds
+# Journal file: C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/LinuxFpga_03.runs/design_1_axi_sdcard_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'C:/Users/tambechristian/AppData/Roaming/Xilinx/Vivado/Vivado_init.tcl'
+source design_1_axi_sdcard_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1062.617 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/tambechristian/Documents/Electronics/Nexys_A7/ip_repo/axi_sdcard_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/LinuxFpga_03.cache/ip 
+Command: synth_design -top design_1_axi_sdcard_0_0 -part xc7a100tcsg324-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 26368
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1102.797 ; gain = 40.180
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_sdcard_0_0' [c:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/LinuxFpga_03.srcs/sources_1/bd/design_1/ip/design_1_axi_sdcard_0_0/synth/design_1_axi_sdcard_0_0.v:56]
+INFO: [Synth 8-6157] synthesizing module 'axi_sdcard_v1_0' [c:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/LinuxFpga_03.srcs/sources_1/bd/design_1/ipshared/cde5/hdl/axi_sdcard_v1_0.v:5]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_S_AXI_ARUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_S_AXI_AWUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_S_AXI_WUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_S_AXI_RUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_S_AXI_BUSER_WIDTH bound to: 0 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'axi4sdcard' [c:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/LinuxFpga_03.srcs/sources_1/bd/design_1/ipshared/cde5/hdl/axi4_sdcard.v:28]
+	Parameter C_S_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ACLK_FREQ_HZ bound to: 100000000 - type: integer 
+	Parameter C_S_AXI_MEM0_BASEADDR bound to: -1 - type: integer 
+	Parameter C_S_AXI_BASEADDR bound to: 1151336448 - type: integer 
+	Parameter C_S_AXI_HIGHADDR bound to: 1151401983 - type: integer 
+	Parameter C_S_AXI_ARUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_AWUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_WUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_RUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_BUSER_WIDTH bound to: 1 - type: integer 
+	Parameter OKAY bound to: 2'b00 
+	Parameter EXOKAY bound to: 2'b01 
+INFO: [Synth 8-6157] synthesizing module 'sdcard' [c:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/LinuxFpga_03.srcs/sources_1/bd/design_1/ipshared/cde5/hdl/sdcard.v:185]
+	Parameter CLKFREQ bound to: 100000000 - type: integer 
+	Parameter CACHESIZE bound to: 512 - type: integer 
+	Parameter MEMNOOP bound to: 2'b00 
+	Parameter MEMWRITEOP bound to: 2'b01 
+	Parameter MEMREADOP bound to: 2'b10 
+	Parameter MEMREADWRITEOP bound to: 2'b11 
+	Parameter CMDRESET bound to: 0 - type: integer 
+	Parameter CMDSWAP bound to: 1 - type: integer 
+	Parameter CMDREAD bound to: 2 - type: integer 
+	Parameter CMDWRITE bound to: 3 - type: integer 
+	Parameter STATUSPOWEROFF bound to: 0 - type: integer 
+	Parameter STATUSREADY bound to: 1 - type: integer 
+	Parameter STATUSBUSY bound to: 2 - type: integer 
+	Parameter STATUSERROR bound to: 3 - type: integer 
+	Parameter ZERO bound to: 0 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'sdcardphy' [c:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/LinuxFpga_03.srcs/sources_1/bd/design_1/ipshared/cde5/hdl/spimode_sdcard.v:246]
+	Parameter CLKFREQ bound to: 100000000 - type: integer 
+	Parameter RESETTING bound to: 0 - type: integer 
+	Parameter READY bound to: 1 - type: integer 
+	Parameter SENDCMD0 bound to: 2 - type: integer 
+	Parameter SENDCMD59 bound to: 3 - type: integer 
+	Parameter SENDCMD8 bound to: 4 - type: integer 
+	Parameter SENDINIT bound to: 5 - type: integer 
+	Parameter SENDCMD41 bound to: 6 - type: integer 
+	Parameter SENDCMD6 bound to: 7 - type: integer 
+	Parameter SENDCMD9 bound to: 8 - type: integer 
+	Parameter SENDCMD58 bound to: 9 - type: integer 
+	Parameter SENDCMD16 bound to: 10 - type: integer 
+	Parameter SENDCMD17 bound to: 11 - type: integer 
+	Parameter SENDCMD24 bound to: 12 - type: integer 
+	Parameter SENDCMD13 bound to: 13 - type: integer 
+	Parameter CMD0RESP bound to: 14 - type: integer 
+	Parameter CMD59RESP bound to: 15 - type: integer 
+	Parameter CMD8RESP bound to: 16 - type: integer 
+	Parameter INITRESP bound to: 17 - type: integer 
+	Parameter CMD6RESP bound to: 18 - type: integer 
+	Parameter CMD9RESP bound to: 19 - type: integer 
+	Parameter CMD58RESP bound to: 20 - type: integer 
+	Parameter CMD16RESP bound to: 21 - type: integer 
+	Parameter CMD17RESP bound to: 22 - type: integer 
+	Parameter CMD24RESP bound to: 23 - type: integer 
+	Parameter CMD13RESP bound to: 24 - type: integer 
+	Parameter PREPCMD59 bound to: 25 - type: integer 
+	Parameter PREPCMD8 bound to: 26 - type: integer 
+	Parameter PREPINIT bound to: 27 - type: integer 
+	Parameter PREPCMD41 bound to: 28 - type: integer 
+	Parameter PREPCMD9 bound to: 29 - type: integer 
+	Parameter PREPCMD58 bound to: 30 - type: integer 
+	Parameter PREPCMD16 bound to: 31 - type: integer 
+	Parameter PREPCMD13 bound to: 32 - type: integer 
+	Parameter PREPREADY bound to: 33 - type: integer 
+	Parameter ERROR bound to: 34 - type: integer 
+	Parameter SCLKDIVIDELIMIT bound to: 9 - type: integer 
+	Parameter SPIBUFFERSIZE bound to: 2 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'spimasterlib' [c:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/LinuxFpga_03.srcs/sources_1/bd/design_1/ipshared/cde5/hdl/spimaster.v:143]
+	Parameter BUFFERSIZE bound to: 2 - type: integer 
+	Parameter DATABITSIZE bound to: 8 - type: integer 
+	Parameter SCLKDIVIDELIMIT bound to: 9 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'spimasterphy' [c:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/LinuxFpga_03.srcs/sources_1/bd/design_1/ipshared/cde5/hdl/phy_spimaster.v:137]
+	Parameter DATABITSIZE bound to: 8 - type: integer 
+	Parameter SCLKDIVIDELIMIT bound to: 9 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'spimasterphy' (1#1) [c:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/LinuxFpga_03.srcs/sources_1/bd/design_1/ipshared/cde5/hdl/phy_spimaster.v:137]
+INFO: [Synth 8-6157] synthesizing module 'fifo' [c:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/LinuxFpga_03.srcs/sources_1/bd/design_1/ipshared/cde5/hdl/fifo.v:151]
+	Parameter DATABITSIZE bound to: 8 - type: integer 
+	Parameter BUFFERSIZE bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'fifo' (2#1) [c:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/LinuxFpga_03.srcs/sources_1/bd/design_1/ipshared/cde5/hdl/fifo.v:151]
+INFO: [Synth 8-6155] done synthesizing module 'spimasterlib' (3#1) [c:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/LinuxFpga_03.srcs/sources_1/bd/design_1/ipshared/cde5/hdl/spimaster.v:143]
+INFO: [Synth 8-6155] done synthesizing module 'sdcardphy' (4#1) [c:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/LinuxFpga_03.srcs/sources_1/bd/design_1/ipshared/cde5/hdl/spimode_sdcard.v:246]
+INFO: [Synth 8-6155] done synthesizing module 'sdcard' (5#1) [c:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/LinuxFpga_03.srcs/sources_1/bd/design_1/ipshared/cde5/hdl/sdcard.v:185]
+WARNING: [Synth 8-689] width (30) of port connection 'memaddr' does not match port width (8) of module 'sdcard' [c:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/LinuxFpga_03.srcs/sources_1/bd/design_1/ipshared/cde5/hdl/axi4_sdcard.v:332]
+WARNING: [Synth 8-7071] port 'memmapsz' of module 'sdcard' is unconnected for instance 'sdcard0' [c:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/LinuxFpga_03.srcs/sources_1/bd/design_1/ipshared/cde5/hdl/axi4_sdcard.v:320]
+WARNING: [Synth 8-7023] instance 'sdcard0' of module 'sdcard' has 15 connections declared, but only 14 given [c:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/LinuxFpga_03.srcs/sources_1/bd/design_1/ipshared/cde5/hdl/axi4_sdcard.v:320]
+INFO: [Synth 8-6155] done synthesizing module 'axi4sdcard' (6#1) [c:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/LinuxFpga_03.srcs/sources_1/bd/design_1/ipshared/cde5/hdl/axi4_sdcard.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'axi_sdcard_v1_0' (7#1) [c:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/LinuxFpga_03.srcs/sources_1/bd/design_1/ipshared/cde5/hdl/axi_sdcard_v1_0.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_sdcard_0_0' (8#1) [c:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/LinuxFpga_03.srcs/sources_1/bd/design_1/ip/design_1_axi_sdcard_0_0/synth/design_1_axi_sdcard_0_0.v:56]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1252.559 ; gain = 189.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1275.391 ; gain = 212.773
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1275.391 ; gain = 212.773
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.070 . Memory (MB): peak = 1275.391 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1355.707 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.107 . Memory (MB): peak = 1356.027 ; gain = 0.320
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1356.027 ; gain = 293.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1356.027 ; gain = 293.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1356.027 ; gain = 293.410
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'sdcardphy'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1356.027 ; gain = 293.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 3     
+	   3 Input   32 Bit       Adders := 1     
+	   2 Input   30 Bit       Adders := 1     
+	   2 Input   27 Bit       Adders := 1     
+	   2 Input   25 Bit       Adders := 3     
+	   2 Input    9 Bit       Adders := 2     
+	   2 Input    4 Bit       Adders := 1     
+	   2 Input    3 Bit       Adders := 1     
+	   3 Input    2 Bit       Adders := 2     
+	   2 Input    2 Bit       Adders := 4     
++---XORs : 
+	   2 Input      4 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 5     
++---Registers : 
+	               32 Bit    Registers := 2     
+	               30 Bit    Registers := 8     
+	               25 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	                9 Bit    Registers := 2     
+	                8 Bit    Registers := 14    
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 12    
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 30    
++---RAMs : 
+	               4K Bit	(128 X 32 bit)          RAMs := 2     
+	               16 Bit	(2 X 8 bit)          RAMs := 2     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 10    
+	   4 Input   32 Bit        Muxes := 3     
+	   7 Input   32 Bit        Muxes := 4     
+	   5 Input   32 Bit        Muxes := 1     
+	   2 Input   30 Bit        Muxes := 1     
+	   2 Input   25 Bit        Muxes := 20    
+	   3 Input   25 Bit        Muxes := 1     
+	  35 Input   25 Bit        Muxes := 1     
+	  24 Input   25 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 85    
+	   4 Input    8 Bit        Muxes := 3     
+	   8 Input    8 Bit        Muxes := 12    
+	   3 Input    8 Bit        Muxes := 1     
+	  25 Input    8 Bit        Muxes := 1     
+	  13 Input    8 Bit        Muxes := 3     
+	   2 Input    7 Bit        Muxes := 2     
+	  34 Input    6 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 24    
+	   2 Input    5 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 24    
+	   4 Input    4 Bit        Muxes := 1     
+	  25 Input    4 Bit        Muxes := 1     
+	   5 Input    4 Bit        Muxes := 1     
+	   7 Input    4 Bit        Muxes := 1     
+	   5 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 3     
+	  21 Input    3 Bit        Muxes := 1     
+	   7 Input    3 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 4     
+	   4 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 129   
+	   4 Input    1 Bit        Muxes := 4     
+	  36 Input    1 Bit        Muxes := 1     
+	  35 Input    1 Bit        Muxes := 2     
+	   9 Input    1 Bit        Muxes := 1     
+	  14 Input    1 Bit        Muxes := 2     
+	   3 Input    1 Bit        Muxes := 1     
+	  15 Input    1 Bit        Muxes := 2     
+	  22 Input    1 Bit        Muxes := 1     
+	   5 Input    1 Bit        Muxes := 2     
+	   8 Input    1 Bit        Muxes := 1     
+	  25 Input    1 Bit        Muxes := 1     
+	  23 Input    1 Bit        Muxes := 1     
+	  21 Input    1 Bit        Muxes := 9     
+	  17 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6851] RAM (inst/axi_sdcard_v1_0_S_AXI_inst/sdcard0/cache0_reg) has partial Byte Wide Write Enable pattern, however no output register found in fanout of RAM. Recommended to use supported Byte Wide Write Enable template. 
+INFO: [Synth 8-6851] RAM (inst/axi_sdcard_v1_0_S_AXI_inst/sdcard0/cache1_reg) has partial Byte Wide Write Enable pattern, however no output register found in fanout of RAM. Recommended to use supported Byte Wide Write Enable template. 
+INFO: [Synth 8-6851] RAM (inst/axi_sdcard_v1_0_S_AXI_inst/sdcard0/cache1_reg) has partial Byte Wide Write Enable pattern, however no output register found in fanout of RAM. Recommended to use supported Byte Wide Write Enable template. 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:00:48 . Memory (MB): peak = 1356.027 ; gain = 293.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping	Report (see note below)
++----------------------------------------------------+----------------------------------------------------+-----------+----------------------+-----------------+
+|Module Name                                         | RTL Object                                         | Inference | Size (Depth x Width) | Primitives      | 
++----------------------------------------------------+----------------------------------------------------+-----------+----------------------+-----------------+
+|\inst/axi_sdcard_v1_0_S_AXI_inst/sdcard0/phy /sdspi | txfifo/buffer_reg                                  | Implied   | 2 x 8                | RAM32M x 2	     | 
+|\inst/axi_sdcard_v1_0_S_AXI_inst/sdcard0/phy /sdspi | rxfifo/buffer_reg                                  | Implied   | 2 x 8                | RAM32M x 2	     | 
+|design_1_axi_sdcard_0_0                             | inst/axi_sdcard_v1_0_S_AXI_inst/sdcard0/cache0_reg | Implied   | 128 x 32             | RAM128X1S x 32	 | 
+|design_1_axi_sdcard_0_0                             | inst/axi_sdcard_v1_0_S_AXI_inst/sdcard0/cache1_reg | Implied   | 128 x 32             | RAM128X1S x 32	 | 
++----------------------------------------------------+----------------------------------------------------+-----------+----------------------+-----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:55 ; elapsed = 00:01:04 . Memory (MB): peak = 1356.027 ; gain = 293.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:55 ; elapsed = 00:01:04 . Memory (MB): peak = 1356.027 ; gain = 293.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping	Report
++----------------------------------------------------+----------------------------------------------------+-----------+----------------------+-----------------+
+|Module Name                                         | RTL Object                                         | Inference | Size (Depth x Width) | Primitives      | 
++----------------------------------------------------+----------------------------------------------------+-----------+----------------------+-----------------+
+|\inst/axi_sdcard_v1_0_S_AXI_inst/sdcard0/phy /sdspi | txfifo/buffer_reg                                  | Implied   | 2 x 8                | RAM32M x 2	     | 
+|\inst/axi_sdcard_v1_0_S_AXI_inst/sdcard0/phy /sdspi | rxfifo/buffer_reg                                  | Implied   | 2 x 8                | RAM32M x 2	     | 
+|design_1_axi_sdcard_0_0                             | inst/axi_sdcard_v1_0_S_AXI_inst/sdcard0/cache0_reg | Implied   | 128 x 32             | RAM128X1S x 32	 | 
+|design_1_axi_sdcard_0_0                             | inst/axi_sdcard_v1_0_S_AXI_inst/sdcard0/cache1_reg | Implied   | 128 x 32             | RAM128X1S x 32	 | 
++----------------------------------------------------+----------------------------------------------------+-----------+----------------------+-----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:57 ; elapsed = 00:01:05 . Memory (MB): peak = 1356.027 ; gain = 293.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:02 ; elapsed = 00:01:11 . Memory (MB): peak = 1356.027 ; gain = 293.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:02 ; elapsed = 00:01:11 . Memory (MB): peak = 1356.027 ; gain = 293.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:02 ; elapsed = 00:01:11 . Memory (MB): peak = 1356.027 ; gain = 293.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:02 ; elapsed = 00:01:11 . Memory (MB): peak = 1356.027 ; gain = 293.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:02 ; elapsed = 00:01:11 . Memory (MB): peak = 1356.027 ; gain = 293.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:02 ; elapsed = 00:01:11 . Memory (MB): peak = 1356.027 ; gain = 293.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |CARRY4    |    64|
+|2     |LUT1      |    53|
+|3     |LUT2      |    86|
+|4     |LUT3      |   131|
+|5     |LUT4      |   105|
+|6     |LUT5      |   191|
+|7     |LUT6      |   813|
+|8     |MUXF7     |    33|
+|9     |RAM128X1S |    64|
+|10    |RAM32M    |     4|
+|11    |FDRE      |   513|
+|12    |FDSE      |    64|
++------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:02 ; elapsed = 00:01:11 . Memory (MB): peak = 1356.027 ; gain = 293.410
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:48 ; elapsed = 00:01:08 . Memory (MB): peak = 1356.027 ; gain = 212.773
+Synthesis Optimization Complete : Time (s): cpu = 00:01:02 ; elapsed = 00:01:11 . Memory (MB): peak = 1356.027 ; gain = 293.410
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.048 . Memory (MB): peak = 1365.902 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 165 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1365.902 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 68 instances were transformed.
+  RAM128X1S => RAM128X1S (MUXF7, RAMS64E(x2)): 64 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 4 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+37 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:10 ; elapsed = 00:01:31 . Memory (MB): peak = 1365.902 ; gain = 303.285
+INFO: [Common 17-1381] The checkpoint 'C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/LinuxFpga_03.runs/design_1_axi_sdcard_0_0_synth_1/design_1_axi_sdcard_0_0.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_axi_sdcard_0_0, cache-ID = cc4a4fbeddda0ef0
+INFO: [Coretcl 2-1174] Renamed 8 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/tambechristian/Documents/Electronics/Nexys_A7/LinuxFpga_03/LinuxFpga_03.runs/design_1_axi_sdcard_0_0_synth_1/design_1_axi_sdcard_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_axi_sdcard_0_0_utilization_synth.rpt -pb design_1_axi_sdcard_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Jul 25 08:19:58 2020...

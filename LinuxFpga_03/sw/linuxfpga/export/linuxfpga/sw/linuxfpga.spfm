@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdx:platform sdx:vendor="xilinx.com"
+              sdx:library="sdx"
+              sdx:name="linuxfpga"
+              sdx:version="1.0"
+              sdx:schemaVersion="1.0"
+              xmlns:sdx="http://www.xilinx.com/sdx">
+    <sdx:description>
+linuxfpga
+    </sdx:description>
+    <sdx:systemConfigurations sdx:defaultConfiguration="linuxfpga">
+        <sdx:configuration sdx:name="linuxfpga"
+                           sdx:displayName="linuxfpga"
+                           sdx:defaultProcessorGroup="standalone_domain"
+                           sdx:runtimes="cpp">
+            <sdx:description>linuxfpga</sdx:description>
+            <sdx:bootImages sdx:default="standard">
+                <sdx:image sdx:name="standard"
+                            sdx:bif="linuxfpga/boot/linuxfpga.bif"
+                            sdx:readme="linuxfpga/boot/generic.readme"
+                            />
+            </sdx:bootImages>
+            <sdx:processorGroup sdx:name="standalone_domain"
+                                sdx:displayName="standalone on microblaze_0"
+                                sdx:cpuType="microblaze_0"
+                                sdx:cpuInstance="microblaze_0">
+                <sdx:os sdx:name="standalone"
+                        sdx:displayName="standalone"
+                        sdx:bspLibraryPaths="linuxfpga/standalone_domain/bsplib/lib"
+                        sdx:bspIncludePaths="linuxfpga/standalone_domain/bspinclude/include"
+                        sdx:bspConfig="linuxfpga/standalone_domain/system.mss"
+                />
+            </sdx:processorGroup>
+        </sdx:configuration>
+    </sdx:systemConfigurations>
+</sdx:platform>

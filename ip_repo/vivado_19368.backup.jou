@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Jul 24 10:06:19 2020
+# Process ID: 19368
+# Current directory: C:/PROJECTS_Boards/Design_project/Nexys_A7/ip_repo/axi_sdcard_v1_0_backup_02
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21648 C:\PROJECTS_Boards\Design_project\Nexys_A7\ip_repo\axi_sdcard_v1_0_backup_02\edit_axi_sdcard_v1_0.xpr
+# Log file: C:/PROJECTS_Boards/Design_project/Nexys_A7/ip_repo/axi_sdcard_v1_0_backup_02/vivado.log
+# Journal file: C:/PROJECTS_Boards/Design_project/Nexys_A7/ip_repo/axi_sdcard_v1_0_backup_02\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/PROJECTS_Boards/Design_project/Nexys_A7/ip_repo/axi_sdcard_v1_0_backup_02/edit_axi_sdcard_v1_0.xpr
+update_compile_order -fileset sources_1
+ipx::open_ipxact_file C:/PROJECTS_Boards/Design_project/Nexys_A7/ip_repo/axi_sdcard_v1_0_backup_02/axi_sdcard_1.0/component.xml
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+synth_design -rtl -name rtl_1
+close_design
+close_project

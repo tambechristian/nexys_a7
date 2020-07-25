@@ -1,0 +1,8 @@
+timestamp=[2020-07-25 08:30:52], mode=WORKBENCH_START, duration=0:00:14.220, duration_ms=14220, data={}
+timestamp=[2020-07-25 08:30:53], mode=WORKBENCH_UI_INIT, duration=0:00:01.393, duration_ms=1393, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2020-07-25 08:31:04], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:07.324, duration_ms=7324, data={}
+timestamp=[2020-07-25 08:32:10], mode=PLATFORM_CREATION, duration=0:00:15.072, duration_ms=15072, data={platform_source=dsa, os=standalone, processor=microblaze, platform=null}
+timestamp=[2020-07-25 08:32:44], mode=APP_CREATION, duration=0:00:04.928, duration_ms=4928, data={name=linuxfpga_app, project_type=sdk, os=standalone, processor=microblaze_0, runtime=C/C++, platform=linuxfpga, application_type=application}
+timestamp=[2020-07-25 08:33:21], mode=PLATFORM_GENERATION, duration=0:00:14.669, duration_ms=14669, data={name=linuxfpga}
+timestamp=[2020-07-25 08:33:23], mode=BUILD, duration=0:00:02.033, duration_ms=2033, data={name=linuxfpga_app, configuration=Debug, clean_build=false}
+timestamp=[2020-07-25 08:33:25], mode=BUILD, duration=0:00:00.303, duration_ms=303, data={name=linuxfpga_app_system, configuration=Debug, clean_build=false}

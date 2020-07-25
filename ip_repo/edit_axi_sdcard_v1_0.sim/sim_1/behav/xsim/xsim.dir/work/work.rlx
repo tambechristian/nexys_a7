@@ -1,0 +1,11 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/PROJECTS_Boards/Design_project/Nexys_A7/ip_repo/axi_sdcard_1.0/src/axi4.sdcard.v,1595300947,verilog,,,C:/PROJECTS_Boards/Design_project/Nexys_A7/ip_repo/axi_sdcard_1.0/src/sdcard.v,axi4sdcard,,,,,,,,
+C:/PROJECTS_Boards/Design_project/Nexys_A7/ip_repo/axi_sdcard_1.0/src/fifo.v,1595298740,verilog,,,,fifo,,,,,,,,
+C:/PROJECTS_Boards/Design_project/Nexys_A7/ip_repo/axi_sdcard_1.0/src/phy.spimaster.v,1595298684,verilog,,,,spimasterphy,,,,,,,,
+C:/PROJECTS_Boards/Design_project/Nexys_A7/ip_repo/axi_sdcard_1.0/src/sdcard.v,1595298581,verilog,,,C:/PROJECTS_Boards/Design_project/Nexys_A7/ip_repo/axi_sdcard_1.0/src/spimode.sdcard.v,sdcard,,,,,,,,
+C:/PROJECTS_Boards/Design_project/Nexys_A7/ip_repo/axi_sdcard_1.0/src/spimaster.v,1595298664,verilog,,,C:/PROJECTS_Boards/Design_project/Nexys_A7/ip_repo/axi_sdcard_1.0/src/fifo.v;C:/PROJECTS_Boards/Design_project/Nexys_A7/ip_repo/axi_sdcard_1.0/src/phy.spimaster.v,spimasterlib,,,,,,,,
+C:/PROJECTS_Boards/Design_project/Nexys_A7/ip_repo/axi_sdcard_1.0/src/spimode.sdcard.v,1595298636,verilog,,,C:/PROJECTS_Boards/Design_project/Nexys_A7/ip_repo/axi_sdcard_1.0/src/spimaster.v,sdcardphy,,,,,,,,
+C:/PROJECTS_Boards/Design_project/Nexys_A7/ip_repo/edit_axi_sdcard_v1_0.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
